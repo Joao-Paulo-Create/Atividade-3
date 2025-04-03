@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(90deg, rgb(0, 153, 255), rgb(118, 195, 247), rgb(176, 223, 255));
+
+}
+#header{
+    font-size: 25px;
+}
+#container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#form{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+#input{
+    margin-top: 10px;
+    display: flex;
+}
+#input input{
+    border-radius: 5px black;
+}
+#estados{
+    padding-left: 50px;
+}
+#button{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+#button1{
+    margin: 5px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(17, 137, 218);
+}
+
+#button1:hover{
+    background: rgb(9, 76, 121);
+}
